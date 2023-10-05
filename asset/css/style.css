@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    font-family: Poppins, sans-serif;
+}
+/* ===================== */
+.content {
+    width: 300px;
+    max-width: calc(100% - 48px);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form .icon {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+}
+
+.form {
+    width: 400px;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+        rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+        rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.form .tittle {
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    color: gray;
+    margin-top: 40px;
+    font-size: 48px;
+}
+
+.user {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    align-items: center;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+        rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+        rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+.label {
+    margin-left: 20px;
+    color: gray;
+    font-size: 20px;
+    opacity: 0.75;
+}
+
+.icon {
+    margin-left: 20px;
+    max-width: 100%;
+}
+
+.password {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    border-radius: 40px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+        rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+        rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+
+a {
+    text-decoration: none;
+    color: deepskyblue;
+    font-size: 18px;
+}
+
+.form .forg {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.form .btn {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    font-weight: 600;
+    margin-top: 20px;
+    font-size: 24px;
+    color: gray;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+        rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.form .btn:hover {
+    background-color: cyan;
+    color: white;
+}
+.form .row {
+    display: flex;
+    margin-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.row .signup {
+    margin-left: 5px;
+}
